@@ -1,0 +1,187 @@
+@media screen and (min-width: 1px) and (max-width: 900px) {
+    #film img{
+        max-width: 20vh;
+        border: #221F26 2px solid;
+    }
+    #film, #review section, .partieCommentaire, h2{
+        max-width: 30vh;
+    }
+    #synopsis{
+        margin: 20px;
+    }
+    h2{
+        font-size: 30px;
+        margin: 20px;
+    }
+    textarea{
+        border: 5px solid gainsboro;
+        border-radius: 30px;
+        font-size: 10px;
+        max-width: 150px ;
+        max-height: 100px;
+    }
+    input {
+        font-size: 10px;
+        width:6vh;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    #film img{
+        max-width: 50vh;
+        border: #221F26 2px solid;
+    }
+
+    #film, #review section,  .partieCommentaire, h2{
+        max-width: 150vh;
+    }
+    #synopsis{
+        margin: 20px;
+        max-width:50%;
+    }
+    h2{
+        font-size: 40px;
+        margin: 20px;
+    }
+    textarea{
+        border: 5px solid gainsboro;
+        border-radius: 30px;
+        font-size: 20px;
+        max-width: 300px ;
+        max-height: 100px;
+    }
+    input {
+        font-size: 10px;
+        width: 5vh;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #film img{
+        max-width: 60vh;
+        border: #221F26 2px solid;
+    }
+    #film, #review section, .partieCommentaire, h2{
+        max-width: 160vh;
+    }
+    #synopsis{
+        max-width:60%;
+    }
+    h2{
+        font-size: 50px;
+        margin: 20px;
+    }
+    textarea{
+        border: 5px solid gainsboro;
+        border-radius: 30px;
+        font-size: 30px;
+        min-width: 600px ;
+        min-height: 200px;
+    }
+    input {
+        font-size: 17px;
+        width: 130px;
+    }
+    
+}
+#upButton{
+    background-color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    position: fixed;
+    color: #221F26;
+    transition: transform .15s;
+}
+#upButton a{
+    color: #221F26;
+    text-decoration: none;
+}
+#upButton:hover{
+    border-radius: 0%;
+    content: ('Test');
+    background-color: #221F26;
+    transform: scale(2);
+}
+
+#upButton a:hover{
+    color: #F6F9FE;
+}
+
+body{
+    background-color: #F2E1AE;
+}
+
+#film, #review section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  #f1ead5;
+    border:  #648C51  solid 0.5vh;
+}
+
+#film, #review section, .partieCommentaire, h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    padding: 2vh;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 1px 5px 1px #ffffff;
+}
+.partieCommentaire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    border:  #D9644A solid 0.5vh;
+    background-color:  #221F26;
+}
+#review img{
+    max-width: 100px;
+}
+
+h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:  #f1ead5;
+    border:  #648C51  solid 0.5vh;
+}
+
+
+/* Ecriture de commentaire */
+
+form{
+    padding: 30px;
+    border: 5px solid #642618;
+    background-color: #f1ead5;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+textarea, input{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+input {
+    border-radius: 4px;
+    background-color: #3d405b;
+    color: #FFFFFF;
+    text-align: center;
+}
+

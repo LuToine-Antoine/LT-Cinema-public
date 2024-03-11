@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">LT-Movies | Film</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/bodymovies.css">
+    <link rel="stylesheet" href="../css/review.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="icon" href="../images/lt-cinema.png">
+</head>
+
+<body>
+        <header>
+            <nav id="headButton">
+                <a href="../index.html"><img alt="Logo de LuToine cinema, retour à l'accueil" id="img_accueil" src="../images/lt-cinema.png"></a>
+                <button id="connexion">Connexion / S'inscrire</button>
+                <button id="myAccount">Mon profil</button>
+                <button id="deconnexion">Deconnexion</button>
+            </nav>
+        </header>
+        <nav id="upButton">
+            <a  href="#"><p>▲</p></a>
+        </nav>
+        <main>
+            <h2>Synopsis</h2>
+            <article id="film">
+                <section id="synopsis">
+                </section>
+            </article>
+
+            <article id="review">
+
+            </article>
+
+            <h2>Commentaires</h2>
+
+            <article class="partieCommentaire">
+            </article>
+            <form>
+                <fieldset>
+                    <label for="commentaire"></label>
+                    <textarea id ="commentaire_test" name="commentaire" rows="5" cols="50" placeholder="Entrez votre commentaire" required></textarea>
+                    <input id="sendCom" type="submit" value="Envoyer">
+                </fieldset>
+            </form>
+
+        </main>
+
+        <footer>
+            <p id="textBlue">TMDB Api used : <a href="https://developer.themoviedb.org/docs/getting-started" target="_blank"> See it here</a></p>
+            <p id="textYellow">Made by Lucie & Antoine with 💖 | ©LuToine 2019 - 2024</p>
+            <img src="../images/cat.gif" alt="Gid d'un chat blanc qui dance">
+        </footer>
+
+    <script src="../sso.js"></script>
+    <script src="../js/movies.js"></script>
+    <script src="../js/review.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+@media screen and (min-width: 1px) and (max-width: 900px) {
+    footer img{
+        max-width: 20vh ;
+    }
+}
+
+@media screen and (min-width: 900px){ 
+    footer img{
+        max-width: 30vh ;
+    }
+
+}
+
+footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: #221F26;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer img{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#textBlue, a{
+    color: rgb(41, 160, 140);
+}
+
+#textYellow{
+    color: yellow;
+}

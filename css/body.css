@@ -1,0 +1,178 @@
+@media screen and (min-width: 1px) and (max-width: 900px) { 
+    #rechercher a{
+        font-size: 1.5vh;
+        display: flex;
+        text-align: center;
+    } ;
+    section h2{
+        max-width: 15vh;
+        display: flex;
+        text-align: center;
+    };
+    section p{
+        max-width: 15vh;
+    }
+    section img{
+        max-width: 20vh;
+    };
+    #synopsis{
+        font-size: 1.5vh;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {  
+    #rechercher a{
+        font-size: 3vh;
+    } ;
+
+    section h2{
+        font-size: 4vh;
+        max-width: 20vh
+    };
+    section p{
+        max-width: 20vh;
+    }
+    section img{
+        max-width: 40vh
+    };
+    #synopsis{
+        font-size: 2vh;
+    }
+}
+
+@media screen and (min-width: 1300px) {  
+    section h2{
+        font-size: 4vh;
+        max-width: 30vh;
+    };
+    section img{
+        max-width: 40vh
+    };
+    section p{
+        max-width: 30vh;
+    }
+    #synopsis{
+        font-size: 3vh;
+    }
+}
+
+
+#upButton{
+    background-color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    position: fixed;
+    color: #221F26;
+    transition: transform .15s;
+}
+#upButton a{
+    color: #221F26;
+    text-decoration: none;
+}
+#upButton:hover{
+    border-radius: 0%;
+    content: ('Test');
+    background-color: #221F26;
+    transform: scale(2);
+}
+
+#upButton a:hover{
+    color: #F6F9FE;
+}
+
+/* Films */
+#rechercher a , .noms_sections{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: #221F26;
+    border: #221F26 solid 1px;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    text-decoration: none;
+    color: #F2F0EB;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#seeMoreId{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: #221F26;
+    border: #221F26 solid 1px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #F2F0EB;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 3vh;
+    padding: 5px;
+}
+
+
+#rechercher a:hover, #seeMoreId:hover{
+    background-color: #F2F0EB;
+    color: #221F26;
+    border: #221F26 solid 1px;
+}
+article{
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section{
+    transition: transform .15s;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vh;
+    background-color:  #f1ead5;
+    border:  #648C51  solid 0.5vh;
+    box-shadow: 1px 5px 1px #ffffff;
+}
+
+section:hover{
+    transform: scale(1.05); 
+    box-shadow: 5px 5px 5px #ffffff;
+}
+section h2, section p{
+    color:  #221F26;
+    margin-bottom: 2vh;
+}
+
+section h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: #F6F9FE;
+    border-radius: 10px;
+    padding: 2px 24px;
+    text-transform: none;
+}
+
+body{
+    background-color: #F2E1AE;
+}
+
+section button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 2vh;
+    background-color: #fff;
+    border-radius: 24px;
+    font-size: 3vh;
+    padding: 2px 24px;
+    text-transform: none;
+}
+
+section button:hover {
+    background: #D9644A;
+    color:#F6F9FE  ;
+}

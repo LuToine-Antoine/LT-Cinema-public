@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LT-Movies | Recherche </title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/searchbar.css">
+    <link rel="icon" href="../images/lt-cinema.png">
+</head>
+
+<body>
+        <header>
+            <nav id="headButton">
+                <a href="../index.html"><img alt="Logo de LuToine cinema, retour à l'accueil" id="img_accueil" src="../images/lt-cinema.png"></a>
+                <button id="connexion">Connexion / S'inscrire</button>
+                <button id="myAccount">Mon profil</button>
+                <button id="deconnexion">Deconnexion</button>
+            </nav>
+        </header>
+
+        <main>
+            <div id="rechercheBar">
+                <input placeholder="Saisir votre recherche" id="searchInput" oninput="searchMovie(this.value)"/>
+            </div>
+            <nav id="upButton">
+                <a  href="#"><p>▲</p></a>
+            </nav>
+
+            <div class="noms_sections">
+                <h2> Résultat de la recherche </h2>
+            </div>
+            <article id="film">
+            </article>
+        </main>
+
+        <footer>
+            <p id="textBlue">TMDB Api used : <a href="https://developer.themoviedb.org/docs/getting-started" target="_blank"> See it here</a></p>
+            <p id="textYellow">Made by Lucie & Antoine with 💖 | ©LuToine 2019 - 2024</p>
+            <img src="../images/cat.gif" alt="Gid d'un chat blanc qui dance">
+        </footer>
+
+<script src="../sso.js"></script>
+<!-- <script src="../js/movies.js"></script> -->
+<script src="../js/search.js"></script>
+
+</body>
+
+</html>

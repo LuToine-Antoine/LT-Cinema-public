@@ -1,0 +1,22 @@
+#rechercheBar{
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+}
+
+input{
+    color: black;
+    border: none;
+    border-radius: 50px;
+    width: 90vh;
+    height: 10vh;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 15px 15px 1px #454347;
+    transition: 0.2s;
+}
+
+input:hover{
+    transform: none;
+    box-shadow: 5px 5px 1px #221F26;
+}
